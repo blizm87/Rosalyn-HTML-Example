@@ -10,22 +10,24 @@ body {
   margin-bottom: 0;
 }
     #navContainer>#linkContainer1 {
+      margin-top: -1px;
+      width: 200px;
       display: inline-block;
+      border: 1px solid black;
     }
 
         #navContainer>#linkContainer1>li {
-          vertical-align: middle;
+          width: 100%;
+          padding-top: 3em;
+          padding-bottom: 3em;
+          border-top: 5px solid #3090C7;
+          text-align: center;
         }
 
         #navContainer>#linkContainer1>li>p {
           width: 100%;
           border: 1px solid red;
           font-size: 18px;
-        }
-
-        #navContainer>#linkContainer1>li {
-/*          padding-top: 2em;
-          padding-bottom: 2em;*/
         }
 
     #navContainer>#linkContainer2 {
