@@ -1,0 +1,27 @@
+{
+  "name": "Rosalyn-HTML-Example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blizm87/Rosalyn-HTML-Example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blizm87/Rosalyn-HTML-Example/issues"
+  },
+  "homepage": "https://github.com/blizm87/Rosalyn-HTML-Example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7"
+  }
+}
