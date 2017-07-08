@@ -7,6 +7,7 @@ body {
   border-color: #3090C7;
   padding-left: 12em;
   padding-right: 12em;
+  margin-bottom: 0;
 }
     #navContainer>#linkContainer1 {
       display: inline-block;
@@ -55,6 +56,41 @@ body {
   padding-right: 12em;
 }
 
+    #mainContainer>section {
+      padding-bottom: 2em;
+    }
+
+        #secOneContainer {
+          height: 440px;
+          border-bottom: 1px solid black;
+          padding-top: ;
+        }
+
+            #secOneMainContentContainer {
+              margin-top: 4em;
+              width: 700px;
+            }
+
+                #secOneMainContentContainer>h1 {
+                  font-size: 48px;
+                  font-weight: bold;
+                }
+
+                #secOneMainContentContainer>p {
+                  font-size: 18px;
+                }
+
+                #secOneMainContentContainer>div>div>button {
+                  border-radius: 0;
+                  padding: 12px;
+                }
+
+                #bookAppBtn {
+                  margin-left: 2em;
+                }
+
+
+
 #footerContainer {
   background-color: rgba(135, 175, 199, .2);
   padding-left: 12em;
@@ -62,4 +98,8 @@ body {
   padding-top: 1em;
   padding-bottom: 4em;
   bottom: 0;
+}
+
+#footerContainer>div>section {
+  padding-left: 0;
 }
