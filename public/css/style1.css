@@ -119,7 +119,16 @@ body {
 
                 #bookAppBtn {
                   margin-left: 2em;
+                  background-color: transparent;
+                  border: 1px solid white;
+                  color: white;
                 }
+
+                    #bookAppBtn:hover {
+                      border: 1px solid transparent;
+                      background-color: #5bc0de;
+                      transition-duration: .3s;
+                    }
 
         #secTwoContainer {
 
