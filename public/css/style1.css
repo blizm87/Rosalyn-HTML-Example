@@ -60,7 +60,7 @@ body {
 
     #mainContainer>section {
       padding-left: 0;
-      padding-bottom: 2em;
+      padding-bottom: 3em;
     }
 
         #secOneContainer {
@@ -134,16 +134,90 @@ body {
 
         }
 
+            #secTwoMainContentContainer {
+              padding-left: 13em;
+              padding-right: 13em;
+            }
+
+                #secTwoMainContentContainer>p {
+                  font-size: 18px;
+                  opacity: .7;
+                }
+
+                #secTwoMainContentContainer>button {
+                  border-radius: 0;
+                  padding-left: 1.5em;
+                  padding-right: 1.5em;
+                }
+
         #secThreeContainer {
-          background-color: rgba(135, 175, 199, .3);
+          background-color: rgba(135, 175, 199, .2);
         }
+
+            #secThreeMainContentContainer {
+              padding-left: 13em;
+              padding-right: 13em;
+            }
+
+                #secThreeMainContentContainer>p  {
+                  font-size: 18px;
+                  opacity: .7;
+                }
+
+                #secThreeMainContentContainer>ul>li>a {
+                  font-size: 18px;
+                  opacity: .7;
+                }
+
+                #secThreeMainContentContainer>button {
+                  border-radius: 0;
+                  padding-left: 1.5em;
+                  padding-right: 1.5em;
+                }
 
         #secFourContainer {
 
         }
 
+            #secFourAllContentContainer {
+              padding-left: 13em;
+              padding-right: 13em;
+            }
+
+                #secFourMainContentContainer {
+                  width: 80%;
+                  display: inline-block;
+                }
+
+
+                    #secFourMainContentContainer>p  {
+                      font-size: 18px;
+                      opacity: .7;
+                    }
+
+                    #secFourMainContentContainer>button {
+                      border-radius: 0;
+                      padding-left: 1.5em;
+                      padding-right: 1.5em;
+                    }
+
+                #facePicContainer {
+                  margin-top: 4em;
+                  display: inline-block;
+                  float: right;
+                }
+
+                    #facePicContainer>img {
+                      min-width: 200px;
+                      width: 200px;
+                      max-width: 200px;
+                      display: block;
+                      border-radius: 50%;
+                      line-height: 1;
+                    }
+
         #secFiveContainer {
-          background-color: rgba(135, 175, 199, .3);
+          background-color: rgba(135, 175, 199, .2);
         }
 
         #secSixContainer {
@@ -151,7 +225,7 @@ body {
         }
 
 #footerContainer {
-  background-color: rgba(135, 175, 199, .3);
+  background-color: rgba(135, 175, 199, .2);
   padding-left: 13em;
   padding-right: 13em;
   padding-top: 1em;
