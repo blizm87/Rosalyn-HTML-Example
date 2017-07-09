@@ -220,9 +220,67 @@ body {
           background-color: rgba(135, 175, 199, .2);
         }
 
+            #secFiveMainContentContainer {
+              padding-left: 13em;
+              padding-right: 13em;
+            }
+
+                #secFiveMainContentContainer>p {
+                  font-size: 18px;
+                  opacity: .7;
+                }
+
+                #secFiveMainContentContainer>ul>li>p {
+                  font-size: 18px;
+                  opacity: .7;
+                }
+
+                #secFiveMainContentContainer>button {
+                  border-radius: 0;
+                  padding-left: 1.5em;
+                  padding-right: 1.5em;
+                }
+
         #secSixContainer {
 
         }
+
+            #secSixMainContentContainer {
+              padding-left: 13em;
+              padding-right: 13em;
+            }
+
+                #socialMediaContainer {
+                  width: 400px;
+                  border: 1px solid rgba(0,0,0, .4);
+                  padding: 1em;
+                }
+
+                    #socialMediaContainer>p {
+                      font-size: 18px;
+                      opacity: .7;
+                      display: inline-block;
+                    }
+
+                    #fbFacePic {
+                      min-width: 100px;
+                      width: 100px;
+                      max-width: 100px;
+                      display: inline-block;
+                    }
+
+                    #fbIconLink {
+                      display: inline-block;
+                    }
+
+                        #fbIconLink>img {
+                          min-width: 50px;
+                          width: 50px;
+                          max-width: 50px;
+                          display: inline-block;
+                        }
+
+
 
 #footerContainer {
   background-color: rgba(135, 175, 199, .2);
