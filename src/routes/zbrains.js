@@ -7,8 +7,8 @@ router.get('/', (req, res, next) => {
     // let creatorMap = {
     //   "Test Justin": "Set Status"
     // };
-    console.log("I AM THE RESPONSE");
-    console.log(res);
+    // console.log("I AM THE RESPONSE");
+    // console.log(res);
     // request.post(url, {creatorMap}, (err, resp, body) => {
     //   const data = JSON.parse(body);
     //   url = 'https://www.googleapis.com/plus/v1/people/me';
