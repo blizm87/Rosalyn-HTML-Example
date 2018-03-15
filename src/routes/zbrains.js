@@ -21,6 +21,21 @@ router.get('/', (req, res, next) => {
     res.json({data: "This is Justins API"});
 });
 
+router.post('/', (req, res, next) => {
+    console.log("I AM THE RESPONSE");
+    console.log(res.body);
+    // request.post(url, {creatorMap}, (err, resp, body) => {
+    //   const data = JSON.parse(body);
+    //   url = 'https://www.googleapis.com/plus/v1/people/me';
+    //   const access_token = data.access_token;
+    //   const options = {
+    //     method: 'GET',
+    //     url,
+    //     headers: { 'Authorization' : `Bearer ${access_token}`}
+    //   }
+    res.json({data: "This is Justins API"});
+})
+
 // router.get('/', (req, res, next) => {
 //   member.findOne({_id: req.query.profileId}, (err, profileData) => {
 //     // console.log(profileData);
