@@ -1,6 +1,6 @@
 (function(){
   'use strict';
-  console.log('I am cgnwc module');
+  console.log('I am IndexOne module');
   angular
     .module('RosalynApp', ['ngRoute'])
     .config(routes)
